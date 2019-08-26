@@ -18,12 +18,12 @@ function whileLoop(n){
   return "done";
 }
 
-function doWhileLoop(num){
+function doWhileLoop(array){
   function maybeTrue(){
     return Math.ramdom() >= 0.5
   }
   do{
-    num.pop();
+    array.pop();
   }while(num.length > -1 && maybeTrue());
 }
 return array
