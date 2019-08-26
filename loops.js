@@ -18,13 +18,14 @@ function whileLoop(n) {
     return "done";
   }
 
-function doWhileLoop(num) {
+  var i = 0;
   function maybeTrue() {
     return Math.random() >= 0.5
   }
-
   do {
-    num.pop();
-  } while (num.length > -1 && maybeTrue());
-    return num;
-}
+     i += 1;
+     console.log(i);
+  } while (i < 5);
+
+    console.log("I run once regardless.")
+  } while (maybeTrue());
