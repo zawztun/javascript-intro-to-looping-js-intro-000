@@ -18,13 +18,13 @@ function whileLoop(n) {
     return "done";
   }
 
-function doWhileLoop(array) {
+function doWhileLoop(num) {
   function maybeTrue() {
     return Math.random() >= 0.5
   }
 
   do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
+    num.pop();
+  } while (num.length > -1 && maybeTrue());
+    return num;
 }
