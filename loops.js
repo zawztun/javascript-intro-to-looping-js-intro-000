@@ -24,8 +24,8 @@ function whileLoop(n) {
   }
   do {
      i += 1;
-     console.log(i);
-  } while (i < 5);
+     console.log("I run once regardless.");
+  } while (i < 10);
 
     console.log("I run once regardless.")
   } while (maybeTrue());
